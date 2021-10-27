@@ -61,7 +61,7 @@
         global: yes
 
     - name: Run pm2
-      command: "sudo pm2 start 'npm run dev' && sudo pm2 save && sudo pm2 startup ubuntu"
+      shell: "sudo pm2 start 'npm run dev' && sudo pm2 save && sudo pm2 startup ubuntu"
       args:
         chdir: /home/{{ vm_username }}/bootcamp-app
 
