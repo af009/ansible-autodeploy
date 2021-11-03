@@ -2,7 +2,7 @@
 Ansible automatic deploy 
 
 ## Terraform part: https://github.com/af009/ansible-project
-## Ansible part: Automatic deploy apps with Ansible
+## Ansible part: Automatic deploy with Ansible
 #### In this part we use Ansible to deploy our app in the infrastructure created in the first part (Terraform).
 
 
